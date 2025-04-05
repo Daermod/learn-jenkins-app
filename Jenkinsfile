@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Test NPM') {
+        stage('Test Hello, from Git') {
             steps {
-                sh 'npm --version'
+                sh 'echo Hello from Git!'
             }
         }
     }
